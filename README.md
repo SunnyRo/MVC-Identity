@@ -6,7 +6,7 @@
 
 ### Added AppUser inherit from IdentityUser
 
-### Applied build-Identity to the app which requires users to log in before doing any CRUD Operations with bot table. (not protected route)
+### Applied build-Identity to the app which requires users to log in before doing any CRUD Operations with bot table. (Appear Bot in navigation bar after log in and user cannot access bot page directly through the url if they are not logged in)
 
 # **How to run**
 

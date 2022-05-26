@@ -7,9 +7,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PlayerWeb.Data;
 using PlayerWeb.Models;
-
+using Microsoft.AspNetCore.Authorization;
 namespace PlayerWeb.Controllers
 {
+    [Authorize]
     public class BotController : Controller
     {
         private readonly ApplicationDbContext _context;
