@@ -10,6 +10,5 @@ public class ApplicationDbContext : IdentityDbContext <AppUser>
         : base(options)
     {
     }
-    public DbSet<Player> Players { get; set; }
     public DbSet<Bot> Bots{ get; set; }
 }
