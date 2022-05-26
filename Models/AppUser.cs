@@ -1,0 +1,5 @@
+using Microsoft.AspNetCore.Identity;
+namespace PlayerWeb.Models;
+public class AppUser : IdentityUser{
+    public string Age {get;set;} = "";
+}
